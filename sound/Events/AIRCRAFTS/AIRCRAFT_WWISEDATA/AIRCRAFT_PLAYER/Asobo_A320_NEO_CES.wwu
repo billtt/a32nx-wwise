@@ -87,6 +87,7 @@
 						<Action Name="" ID="{48DDE8B5-D8E5-44C1-8C33-C133F5971DC3}" ShortID="261810689">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -97,7 +98,7 @@
 						<Action Name="" ID="{16B3626E-BC94-49B0-B282-CC1E423BAC24}" ShortID="65197119">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="4"/>
+								<Property Name="Delay" Type="Real64" Value="7"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -108,7 +109,7 @@
 						<Action Name="" ID="{123AFE95-FF7F-41B8-A6EC-9637D8DD80EA}" ShortID="542836585">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="6"/>
+								<Property Name="Delay" Type="Real64" Value="9"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -119,7 +120,7 @@
 						<Action Name="" ID="{F03090DE-CCAD-4FF9-A50A-5B285DB81496}" ShortID="603264740">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Delay" Type="Real64" Value="59"/>
+								<Property Name="Delay" Type="Real64" Value="62"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
