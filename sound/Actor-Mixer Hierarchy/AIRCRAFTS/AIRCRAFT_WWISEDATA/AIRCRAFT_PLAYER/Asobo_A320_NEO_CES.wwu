@@ -300,9 +300,6 @@
 						<RandomSequenceContainer Name="CES BGM Random" ID="{6347FF77-3F43-4FBF-8350-8D4F49A68D7B}" ShortID="765690112">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{80B168F1-E97B-470D-B660-E3CF80409AC5}" ShortID="8396627">
 											<ReferenceList>
@@ -401,6 +398,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="CES BGM Heaven On Earth" ID="{D777F0DB-07C7-4090-AC21-8EFCD630644A}" ShortID="512268591">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
@@ -426,6 +430,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="CES BGM Moonglow" ID="{09EF7E9C-873C-4985-AC35-9BB544365C5E}" ShortID="748919664">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{72C899CE-308C-4CA7-87C0-8E1504B1D757}"/>
