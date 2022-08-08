@@ -3356,21 +3356,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Asobo_A320_NEO_after_landing" ID="{D8631D65-4CAE-40B2-89C6-61BCD2999B8E}">
-					<ChildrenList>
-						<Action Name="" ID="{2AF1B683-4447-4C3D-8068-AC894F455C1C}" ShortID="307863841">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="20"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="After Landing" ID="{FC94FA5B-0B6B-430F-8F76-D2DAF34CE717}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

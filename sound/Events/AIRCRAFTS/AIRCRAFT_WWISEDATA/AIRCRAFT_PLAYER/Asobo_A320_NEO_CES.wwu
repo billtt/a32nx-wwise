@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E818C6DB-8079-4253-8309-18CE752ADD27}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Asobo_A320_NEO_CES" ID="{E818C6DB-8079-4253-8309-18CE752ADD27}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Asobo_A320_NEO_ces_after_landing" ID="{D8631D65-4CAE-40B2-89C6-61BCD2999B8E}">
+					<ChildrenList>
+						<Action Name="" ID="{2AF1B683-4447-4C3D-8068-AC894F455C1C}" ShortID="307863841">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES After Landing" ID="{E6F313D8-9AA4-4CA5-B6F2-E629FD572E20}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_safety_demo" ID="{E72BEBE5-AE8E-40F2-AFEE-404E989309F5}">
+					<ChildrenList>
+						<Action Name="" ID="{B2BC5DC1-E669-4EDF-9BE0-311B8693923A}" ShortID="837983450">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Safety" ID="{7B7A215E-59AC-4DFD-8B48-66EF58EB0060}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_boarding" ID="{BA2503D7-140C-4FF5-A27E-1A1D876F56C1}">
+					<ChildrenList>
+						<Action Name="" ID="{942EC109-F5FD-4425-AE6E-4457F193A303}" ShortID="131209839">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES BGM Random" ID="{6347FF77-3F43-4FBF-8350-8D4F49A68D7B}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{488921F0-7848-4472-8FEC-02DF2E4ACAB5}" ShortID="956206512">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Boarding" ID="{66841186-0198-4576-B9CC-8E1943E558A3}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C8ABE02A-6CEC-4DAF-AF77-4116A30BFE54}" ShortID="283111061">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="boarding" ID="{80B59654-777A-4E57-A180-B6224C369A30}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_boarding_completed" ID="{06F758AC-AE1E-4C38-95B0-CB16F1571E9D}">
+					<ChildrenList>
+						<Action Name="" ID="{766FB73B-401E-44FA-A9B6-AF60FF2448ED}" ShortID="1022765817">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Boarding Complete" ID="{3C50408D-3416-4FDB-BA4A-3DA9328D18B2}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_welcome_aboard" ID="{2422A403-432D-41E0-A3F1-559BB3A4800E}">
+					<ChildrenList>
+						<Action Name="" ID="{48DDE8B5-D8E5-44C1-8C33-C133F5971DC3}" ShortID="261810689">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Chime" ID="{810F3B93-7514-4B7E-B83E-4DE3EDFEFA20}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{16B3626E-BC94-49B0-B282-CC1E423BAC24}" ShortID="65197119">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES BGM Annies Wonderland" ID="{C939E0D2-6DC3-4A12-A544-72506722F7B0}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{123AFE95-FF7F-41B8-A6EC-9637D8DD80EA}" ShortID="542836585">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Welcome Aboard" ID="{0ED3A20E-8BFC-45E8-8A5A-54F6C2A0ACED}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F03090DE-CCAD-4FF9-A50A-5B285DB81496}" ShortID="603264740">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="59"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES BGM Annies Wonderland" ID="{C939E0D2-6DC3-4A12-A544-72506722F7B0}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_arm_doors" ID="{B30BBEB7-5A92-4615-AA32-398151E48ED6}">
+					<ChildrenList>
+						<Action Name="" ID="{E05D55A8-A99F-4180-9595-4F92D2B63D16}" ShortID="357471833">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Arm Doors" ID="{09B03400-F532-458D-95C6-CD2E48B55C69}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_cruise" ID="{4BDA0813-C725-46D6-825D-E8D658DA35D3}">
+					<ChildrenList>
+						<Action Name="" ID="{30EB2559-77A0-4C45-A042-3057659E3A47}" ShortID="973342766">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Cruise" ID="{72ABCB95-520B-4C9D-8DAE-7A9BAA1A6198}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C36ACD93-0D20-4940-A1B7-01CD57C7F2C5}" ShortID="1067835386">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Chime" ID="{810F3B93-7514-4B7E-B83E-4DE3EDFEFA20}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_descent" ID="{FF9E0DBC-91AE-494F-AE78-96A849C05CB3}">
+					<ChildrenList>
+						<Action Name="" ID="{D9842010-C272-47C0-9E03-62DBDBBE9330}" ShortID="298265354">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Chime" ID="{810F3B93-7514-4B7E-B83E-4DE3EDFEFA20}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A7D8DFA9-7B0B-4989-BAD1-13A0241A073B}" ShortID="489279052">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Descent" ID="{79DE5215-5DF7-463F-8519-6F60AB558B3F}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_deboarding" ID="{6DE47722-9BA1-4F98-B359-839D95B26429}">
+					<ChildrenList>
+						<Action Name="" ID="{503BE6E5-C902-4926-B30E-C8CAC1E744F5}" ShortID="984795147">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES BGM Random" ID="{6347FF77-3F43-4FBF-8350-8D4F49A68D7B}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{36E67D43-A0D4-4386-A633-E55ACD0638C8}" ShortID="506688907">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="deboarding" ID="{2A91815B-5A5B-4720-84AF-CA33570A695E}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A1DC1ABD-ABAA-4675-B440-D390B7398C77}" ShortID="617064792">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cabin" ID="{0A88FDF6-C17B-42A1-A45E-F1684C71EBDD}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_disarm_doors" ID="{C3D476A2-B84A-456B-AA7C-34C350323662}">
+					<ChildrenList>
+						<Action Name="" ID="{653140BE-79E8-41B2-A923-3950EAAB9910}" ShortID="520929928">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Disarm Doors" ID="{61DB8C11-3DC9-4445-813E-9FED687A498D}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_before_takeoff" ID="{814AE040-6BD9-45D5-816E-80A053FFFA17}">
+					<ChildrenList>
+						<Action Name="" ID="{A33DBDEE-82AF-4EC7-87D0-BB9296255024}" ShortID="343682520">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Chime" ID="{810F3B93-7514-4B7E-B83E-4DE3EDFEFA20}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6CB97436-A314-4656-B5A5-977DD0F8E628}" ShortID="882957553">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Before Takeoff" ID="{0227D8F0-2CEB-41D6-A4C2-D6FA05EDD252}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Asobo_A320_NEO_ces_before_landing" ID="{9EFA5F49-CFD2-47EC-ADFC-C53C2DE507BD}">
+					<ChildrenList>
+						<Action Name="" ID="{DC52E2FB-A627-485A-BFE1-9769E60BE9C7}" ShortID="184244541">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Chime" ID="{810F3B93-7514-4B7E-B83E-4DE3EDFEFA20}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D5D9173C-678C-46C5-834E-23E180CCC9E7}" ShortID="924305784">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Before Landing" ID="{0A402439-8718-43A2-AAF3-1A35D941EED1}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

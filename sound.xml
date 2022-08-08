@@ -2217,26 +2217,26 @@
             <WwiseRTPC LocalVar="A32NX_SOUND_PASSENGER_AMBIENCE_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" />
         </Sound>
                 
-        <Sound WwiseEvent="boarding" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="true" FadeOutType="1" FadeOutTime="1" LocalVar="A32NX_SOUND_PAX_BOARDING">
+        <Sound WwiseEvent="ces_boarding" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" FadeOutType="1" FadeOutTime="1" LocalVar="A32NX_SOUND_PAX_BOARDING">
             <Range LowerBound="1" />
             <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_SOUND_PASSENGER_AMBIENCE_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" />
             <WwiseRTPC LocalVar="A32NX_SOUND_BOARDING_MUSIC_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_BOARDING_MUSIC_TOGGLE" />
         </Sound>
         
-        <Sound WwiseEvent="deboarding" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="true" FadeOutType="1" FadeOutTime="5" LocalVar="A32NX_SOUND_PAX_DEBOARDING">
+        <Sound WwiseEvent="ces_deboarding" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" FadeOutType="1" FadeOutTime="5" LocalVar="A32NX_SOUND_PAX_DEBOARDING">
             <Range LowerBound="1" />
             <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_SOUND_PASSENGER_AMBIENCE_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" />
         </Sound>
         
-        <Sound WwiseEvent="boardingcompleted" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" LocalVar="A32NX_SOUND_BOARDING_COMPLETE">
+        <Sound WwiseEvent="ces_boarding_completed" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" LocalVar="A32NX_SOUND_BOARDING_COMPLETE">
             <Range LowerBound="1" />
             <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_SOUND_ANNOUNCEMENTS_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" />
         </Sound>
         
-        <Sound WwiseEvent="welcomeonboard" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" LocalVar="A32NX_SOUND_BOARDING_COMPLETE">
+        <Sound WwiseEvent="ces_welcome_aboard" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" LocalVar="A32NX_SOUND_BOARDING_COMPLETE">
             <Range LowerBound="1" />
             <Requires SimVar="LIGHT BEACON" Index="0" Units="Bool">
                 <Range UpperBound="0" />
@@ -2245,7 +2245,7 @@
             <WwiseRTPC LocalVar="A32NX_SOUND_ANNOUNCEMENTS_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" />
         </Sound>
         
-        <Sound WwiseEvent="armdoors" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="true" SimVar="LIGHT BEACON" Index="0" Units="Bool">
+        <Sound WwiseEvent="ces_arm_doors" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" SimVar="LIGHT BEACON" Index="0" Units="Bool">
             <Range LowerBound="1" />
             <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_SOUND_ANNOUNCEMENTS_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" />
@@ -2254,7 +2254,7 @@
             </Requires>
         </Sound>
         
-        <Sound WwiseEvent="safetydemo" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="true" SimVar="LIGHT BEACON" Index="0" Units="Bool">
+        <Sound WwiseEvent="ces_safety_demo" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" SimVar="LIGHT BEACON" Index="0" Units="Bool">
             <Range LowerBound="1" />
             <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_SOUND_ANNOUNCEMENTS_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" />
@@ -2263,7 +2263,7 @@
             </Requires>
         </Sound>
         
-        <Sound WwiseEvent="after_landing" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" SimVar="GEAR IS ON GROUND" Index="0" Units="Bool">
+        <Sound WwiseEvent="ces_after_landing" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" SimVar="GEAR IS ON GROUND" Index="0" Units="Bool">
             <Range LowerBound="1" />
             <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_SOUND_ANNOUNCEMENTS_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" />
@@ -2272,7 +2272,7 @@
             </Requires>
         </Sound>
         
-        <Sound WwiseEvent="disarmdoors" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" LocalVar="A32NX_FMGC_FLIGHT_PHASE">
+        <Sound WwiseEvent="ces_disarm_doors" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" LocalVar="A32NX_FMGC_FLIGHT_PHASE">
             <Range LowerBound="7" />
              <Requires LocalVar="A32NX_SLIDES_ARMED" >
                 <Range UpperBound="0" />
@@ -2293,12 +2293,12 @@
             <WwiseRTPC LocalVar="A32NX_SOUND_PASSENGER_AMBIENCE_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_PASSENGER_AMB_TOGGLE" />
         </Sound>
         
-        <Sound WwiseEvent="cruise" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="true" LocalVar="A32NX_FMGC_FLIGHT_PHASE">
+        <Sound WwiseEvent="ces_cruise" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" LocalVar="A32NX_FMGC_FLIGHT_PHASE">
             <Range LowerBound="3" UpperBound="3" />
             <WwiseRTPC LocalVar="A32NX_SOUND_ANNOUNCEMENTS_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" />
         </Sound>
         
-        <Sound WwiseEvent="descent" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="true" LocalVar="A32NX_FMGC_FLIGHT_PHASE">
+        <Sound WwiseEvent="ces_descent" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" LocalVar="A32NX_FMGC_FLIGHT_PHASE">
             <Range LowerBound="4" UpperBound="4"/>
             <Requires LocalVar="A32NX_EFIS_L_APPR_MSG_0">
                 <Range LowerBound="1" />
@@ -2306,7 +2306,7 @@
             <WwiseRTPC LocalVar="A32NX_SOUND_ANNOUNCEMENTS_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" />
         </Sound>
         
-         <Sound WwiseData="true" WwiseEvent="cabin_crew_seats_takeoff" SimVar="LIGHT LANDING ON" Units="bool" Index="2" NodeName="PEDALS_LEFT" Continuous="true">
+         <Sound WwiseData="true" WwiseEvent="ces_before_takeoff" SimVar="LIGHT LANDING ON" Units="bool" Index="2" NodeName="PEDALS_LEFT" Continuous="false">
             <Range LowerBound="1" />
             <Requires LocalVar="A32NX_ENGINE_N1:1">
                 <Range LowerBound="17" />
@@ -2320,7 +2320,7 @@
             <WwiseRTPC LocalVar="A32NX_SOUND_ANNOUNCEMENTS_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" />
         </Sound>
         
-         <Sound WwiseData="true" WwiseEvent="cabin_crew_seats_landing" SimVar="GEAR TOTAL PCT EXTENDED" Units="PERCENT" Index="0" NodeName="PEDALS_LEFT" Continuous="true">
+         <Sound WwiseData="true" WwiseEvent="ces_before_landing" SimVar="GEAR TOTAL PCT EXTENDED" Units="PERCENT" Index="0" NodeName="PEDALS_LEFT" Continuous="false">
             <Range LowerBound="0.2" />
             <Requires LocalVar="A32NX_FMGC_FLIGHT_PHASE">
                 <Range LowerBound="5" UpperBound="6" />
