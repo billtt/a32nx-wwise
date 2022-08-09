@@ -2266,12 +2266,15 @@
             </Requires>
         </Sound>
         
-        <Sound WwiseEvent="ces_after_landing" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" SimVar="GEAR IS ON GROUND" Index="0" Units="Bool">
+        <Sound WwiseEvent="ces_after_landing" WwiseData="true" NodeName="SOUND_FWD_GALLEY" ConeHeading="180" CancelConeHeadingWhenInside="false" Continuous="false" BreakOnStop="true" FadeOutType="1" FadeOutTime="5" SimVar="GEAR IS ON GROUND" Index="0" Units="Bool">
             <Range LowerBound="1" />
             <WwiseRTPC LocalVar="A32NX_COCKPIT_DOOR_LOCKED" RTPCAttackTime="0.5" RTPCReleaseTime="0.5" Units="bool" Index="1" RTPCName="LOCALVAR_A32NX_COCKPIT_DOOR_LOCKED" />
             <WwiseRTPC LocalVar="A32NX_SOUND_ANNOUNCEMENTS_ENABLED" Units="number" Index="0" RTPCName="LOCALVAR_A32NX_ANNOUNCEMENT_TOGGLE" />
             <Requires LocalVar="A32NX_FMGC_FLIGHT_PHASE">
                 <Range LowerBound="3" UpperBound="7" />
+            </Requires>
+            <Requires LocalVar="A32NX_SOUND_PAX_DEBOARDING">
+                <Range UpperBound="0" />
             </Requires>
         </Sound>
         

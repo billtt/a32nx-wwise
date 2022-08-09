@@ -129,7 +129,6 @@
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -302,13 +301,12 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="CES BGM Deboarding" ID="{E91E61A1-08E2-4959-8574-3032701A5331}" ShortID="349085537">
+						<RandomSequenceContainer Name="CES BGM Landed" ID="{E91E61A1-08E2-4959-8574-3032701A5331}" ShortID="349085537">
 							<PropertyList>
 								<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="OverrideAnalysis" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>

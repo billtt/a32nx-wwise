@@ -16,6 +16,29 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{8377FA03-4BEF-4057-839C-818D914488A4}" ShortID="915470985">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="17"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES Chime" ID="{810F3B93-7514-4B7E-B83E-4DE3EDFEFA20}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C675AE0E-B430-41AF-8A48-D39D908A039E}" ShortID="624153337">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="20"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES BGM Landed" ID="{E91E61A1-08E2-4959-8574-3032701A5331}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_ces_safety_demo" ID="{E72BEBE5-AE8E-40F2-AFEE-404E989309F5}">
@@ -199,16 +222,6 @@
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_ces_deboarding" ID="{6DE47722-9BA1-4F98-B359-839D95B26429}">
 					<ChildrenList>
-						<Action Name="" ID="{503BE6E5-C902-4926-B30E-C8CAC1E744F5}" ShortID="984795147">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="CES BGM Deboarding" ID="{E91E61A1-08E2-4959-8574-3032701A5331}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{36E67D43-A0D4-4386-A633-E55ACD0638C8}" ShortID="506688907">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
@@ -266,6 +279,7 @@
 						<Action Name="" ID="{DC52E2FB-A627-485A-BFE1-9769E60BE9C7}" ShortID="184244541">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -276,7 +290,7 @@
 						<Action Name="" ID="{D5D9173C-678C-46C5-834E-23E180CCC9E7}" ShortID="924305784">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="3"/>
+								<Property Name="Delay" Type="Real64" Value="8"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
