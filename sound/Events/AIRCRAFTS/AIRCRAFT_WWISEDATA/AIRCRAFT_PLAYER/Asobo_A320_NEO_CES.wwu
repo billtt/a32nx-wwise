@@ -247,6 +247,19 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{4BF6974A-F096-4E07-9576-6F8495242AD9}" ShortID="868841698">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CES BGM Landed" ID="{E91E61A1-08E2-4959-8574-3032701A5331}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Asobo_A320_NEO_ces_before_takeoff" ID="{814AE040-6BD9-45D5-816E-80A053FFFA17}">
