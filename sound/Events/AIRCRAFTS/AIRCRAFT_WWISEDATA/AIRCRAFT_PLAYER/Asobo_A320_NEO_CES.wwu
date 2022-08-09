@@ -41,14 +41,13 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CES BGM Random" ID="{6347FF77-3F43-4FBF-8350-8D4F49A68D7B}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+									<ObjectRef Name="CES BGM Boarding" ID="{6347FF77-3F43-4FBF-8350-8D4F49A68D7B}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{488921F0-7848-4472-8FEC-02DF2E4ACAB5}" ShortID="956206512">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="10"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -87,7 +86,7 @@
 						<Action Name="" ID="{48DDE8B5-D8E5-44C1-8C33-C133F5971DC3}" ShortID="261810689">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="3"/>
+								<Property Name="Delay" Type="Real64" Value="5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -98,7 +97,7 @@
 						<Action Name="" ID="{16B3626E-BC94-49B0-B282-CC1E423BAC24}" ShortID="65197119">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="7"/>
+								<Property Name="Delay" Type="Real64" Value="9"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -109,7 +108,7 @@
 						<Action Name="" ID="{123AFE95-FF7F-41B8-A6EC-9637D8DD80EA}" ShortID="542836585">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
-								<Property Name="Delay" Type="Real64" Value="9"/>
+								<Property Name="Delay" Type="Real64" Value="11"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -120,7 +119,7 @@
 						<Action Name="" ID="{F03090DE-CCAD-4FF9-A50A-5B285DB81496}" ShortID="603264740">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Delay" Type="Real64" Value="62"/>
+								<Property Name="Delay" Type="Real64" Value="64"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -206,7 +205,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="CES BGM Random" ID="{6347FF77-3F43-4FBF-8350-8D4F49A68D7B}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
+									<ObjectRef Name="CES BGM Deboarding" ID="{E91E61A1-08E2-4959-8574-3032701A5331}" WorkUnitID="{8BC05481-D736-42E0-97DC-C3B9F846427F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -217,16 +216,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="deboarding" ID="{2A91815B-5A5B-4720-84AF-CA33570A695E}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{A1DC1ABD-ABAA-4675-B440-D390B7398C77}" ShortID="617064792">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="cabin" ID="{0A88FDF6-C17B-42A1-A45E-F1684C71EBDD}" WorkUnitID="{9B36CB5C-08A3-4FA2-AE2F-6B1A0F2E5966}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
